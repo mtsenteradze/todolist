@@ -1,12 +1,18 @@
 <?php
 
-include "DB_CON.php"
+include "DB_CON.php";
 
-if($_REQUEST['action'] == 'del'){
-     $req_id = $_REQUEST['id'];
-     $del_query = mysql_query("DELETE FROM `todo_items` WHERE id='$req_id'");
-}
+     
+     	
+     $id = $_GET['del'];
+     $del_query = "DELETE FROM `todo_items` WHERE id=$id";
+	 $res = mysql_query($del_query);
+     
+	
 
+
+
+ header('Location: todolist.php');
 
 
 ?>

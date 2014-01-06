@@ -12,7 +12,7 @@ $("#myForm").submit(function(){
 );
 
 function clearInput() {
-    $("#myForm :input").each(function() {
+    $(".raw").each(function() {
 	    $(this).val('');
 		});
  }

@@ -1,0 +1,92 @@
+
+
+
+body
+{   
+	font-family: tahoma;
+	display: block;
+   
+    width: 486px;
+	margin: auto;
+	
+    background: linear-gradient( #FFC2E0 ,#FFFFFF);
+}
+
+#myForm{
+    margin-top: 17px;
+	background-color: purple;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 51px;
+    color: white;
+    box-shadow: 10px 10px 20px #999999;
+}
+#submit {
+    float: right;
+    display: inline-block;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9FDC22), color-stop(100%,#94CC20));
+    background: -moz-linear-gradient(center top, #9FDC22 0%, #94CC20 100%);
+    border-radius: 5px;
+    text-shadow: 0px -1px 0px #709A16;
+    padding: 7px 17px;
+    border-color: #7BA819;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+
+	
+}
+
+
+#display{
+	padding: 5px;
+  
+	background-color: FF6C47;
+	padding-bottom: 40px;
+	box-shadow: 10px 10px 20px #999999;
+}
+
+
+#display li {
+	
+    
+	list-style-type: none;
+}
+#item{
+	font-size: 20px;
+	font-family: 'Schoolbell', arial, serif;
+    color:purple;
+	background: linear-gradient(#FFB280, #FF944D);
+	padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+	background-color: #FFB280;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+#date {
+	font-family: 'Schoolbell', arial, serif;
+    color: purple;
+	background: linear-gradient(#FFB280, #FF944D);
+    
+    padding:5px;
+	margin-bottom: 3px;
+}
+
+#delete{
+    text-decoration: none;
+    background-color: purple;
+    color: white;
+	padding: 3px;
+	
+}
+#edit {
+    margin-left: 60px;
+    background-color: purple;
+    color: white;
+    padding: 3px;
+    text-decoration:none;
+}
