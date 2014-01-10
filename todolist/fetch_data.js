@@ -14,7 +14,7 @@ $.getJSON("fetch_data.php", function(data){
 	$('#content_disp').prepend("<li id = 'item'>Todo Item:  "+this['todoItem']+
 							   "</li><li id = 'Date'>date  :"+this['date']+
 							   "</li>"+
-							   "<a id = 'delete' href = 'Delete.php?del='$row[0]'>Delete </a>"+
+							   "<a id = 'delete' href = 'Delete.php?del='$row[1]'>Delete </a>"+
 							   "<a id = 'edit' href = 'Edit.php?edit=$row[id]'> Edit</a><br /> "
 							   );
 	

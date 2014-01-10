@@ -1,18 +1,23 @@
 
     <?php
 include ('DB_CON.php');
-    $todoItem = $_POST['todoItem'];
-    $date = $_POST['date'];
+    
+
+
+    if (isset($_POST['todoItem']) && isset($_POST['date'])){
+    $todoItem = trim($_POST['todoItem']);
+    $date = trim($_POST['date']);
+    if (!empty($todoItem) && !empty($date)){
     
 		$query = "INSERT INTO `todo_items` VALUES ('','$todoItem','$date')";
 	    
-		if (mysql_query($query)){
-	   
-		echo 'inserted: '. $todoItem .' '. $date;
-		
-	
-    }else{
-	    echo'failed to insert data';
-		die();
-	    }
+		mysql_query($query);
+
+
+	}else{
+
+		echo 'enter';
+	}
+
+	}
 	?>

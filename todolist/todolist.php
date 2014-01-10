@@ -10,7 +10,7 @@
 <div id = "input">
 <form id = "myForm" action = "insert_db.php" method = "POST">
 	todo Item:</br>
-	<textarea rows = "5" cols = "55" class = "raw" type = "text" name = "todoItem"></textarea></br>
+	<textarea  rows = "5" cols = "55" class = "raw" type = "text" name = "todoItem"></textarea></br>
 	date:</br>
     <input class = "raw" type = "text" name = "date"></br>
 	<input id = "submit" type = "submit" value = "add" name = "submit">
